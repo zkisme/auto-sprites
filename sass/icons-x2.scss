@@ -1,0 +1,37 @@
+//这里针对移动端2倍屏设置，所有尺寸缩小一半，如果需要修改成3倍屏之类，把 / 2 修改成 / 3即可（注意空格）
+
+@import "compass/utilities/sprites";
+//引入sprites工具
+$sprites:sprite-map('icons/*.png',$spacing:5px,$layout:vertical);
+//vertical  图标竖排
+//horizontal  图标横排
+//diagonal  图标对角线排列
+//smart  图标紧凑，最小空白排列; 
+//默认间距5px 如果排列方式为smart时，间距不可用
+//加载图片对象
+
+//通用雪碧图的class
+.sprites{
+//引入生成后的图片地址，目前为本地相对路径，css文件中需要修改
+    background: sprite-url($sprites);
+    //合成后的雪碧图大小
+    -webkit-background-size:sprite-width($sprites) / 2 sprite-height($sprites) / 2;
+    -moz-background-size:sprite-width($sprites) / 2 sprite-height($sprites) / 2;
+    background-size:sprite-width($sprites) / 2 sprite-height($sprites) / 2;
+}
+
+//设置循环变量，变量名为图标名
+$names: sprite-names($sprites);
+
+//给所有小图标生成类，类名为 .sprite-图片文件名，如一个小图标的文件名是share.png，这个图标对应的类名为.sprite-share,注：尽量不要使用1.PNG之类数字作为文件名
+@each $name in $names{
+    .#{$name}{
+    //集成通用类
+        @extend .sprites;
+        //设置background-position定位
+        background-position:nth(sprite-position($sprites,$name),1) / 2 nth(sprite-position($sprites,$name),2) / 2;
+        //设置宽高，如不需要可以省略
+        width:image-width(sprite-file($sprites,$name)) / 2;
+        height:image-height(sprite-file($sprites,$name)) / 2;
+    }
+}
