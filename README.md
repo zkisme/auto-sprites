@@ -30,3 +30,4 @@ compass -v查看是否安装成功
 
 生成的sprite图在images文件夹下
 生成的css在stylesheet下
+命令行输入compass watch即可监听，文件有修改时自动生成对应的文件
