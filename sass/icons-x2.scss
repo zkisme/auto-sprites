@@ -6,7 +6,7 @@ $sprites:sprite-map('icons/*.png',$spacing:5px,$layout:vertical);
 //vertical  图标竖排
 //horizontal  图标横排
 //diagonal  图标对角线排列
-//smart  图标紧凑，最小空白排列; 
+//smart  图标紧凑，最小空白排列;
 //默认间距5px 如果排列方式为smart时，间距不可用
 //加载图片对象
 
@@ -25,7 +25,7 @@ $names: sprite-names($sprites);
 
 //给所有小图标生成类，类名为 .sprite-图片文件名，如一个小图标的文件名是share.png，这个图标对应的类名为.sprite-share,注：尽量不要使用1.PNG之类数字作为文件名
 @each $name in $names{
-    .#{$name}{
+    .sprites-#{$name}{
     //集成通用类
         @extend .sprites;
         //设置background-position定位

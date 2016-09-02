@@ -1,146 +1,176 @@
-.sprites, .sprites-icons-1, .sprites-icons-10, .sprites-icons-11, .sprites-icons-12, .sprites-icons-13, .sprites-icons-14, .sprites-icons-15, .sprites-icons-16, .sprites-icons-17, .sprites-icons-18, .sprites-icons-19, .sprites-icons-2, .sprites-icons-20, .sprites-icons-21, .sprites-icons-22, .sprites-icons-23, .sprites-icons-3, .sprites-icons-4, .sprites-icons-5, .sprites-icons-6, .sprites-icons-7, .sprites-icons-8, .sprites-icons-9 {
-  background: url('../images/icons-s0386952d75.png');
-  -webkit-background-size: 110px 870px;
-  -moz-background-size: 110px 870px;
-  -o-background-size: 110px 870px;
-  -ms-background-size: 110px 870px;
-  background-size: 110px 870px;
+.sprites, .sprites-1, .sprites-10, .sprites-11, .sprites-12, .sprites-13, .sprites-14, .sprites-15, .sprites-16, .sprites-17, .sprites-18, .sprites-19, .sprites-2, .sprites-20, .sprites-21, .sprites-22, .sprites-23, .sprites-24, .sprites-3, .sprites-4, .sprites-5, .sprites-6, .sprites-7, .sprites-9, .sprites-list-tofirst, .sprites-list-tolast, .sprites-middlePage, .sprites-nextPage, .sprites-prevPage {
+  background: url('../images/icons-sd78fd2ae1c.png');
+  -webkit-background-size: 110px 1045px;
+  -moz-background-size: 110px 1045px;
+  -o-background-size: 110px 1045px;
+  -ms-background-size: 110px 1045px;
+  background-size: 110px 1045px;
 }
 
-.sprites-icons-1 {
+.sprites-1 {
   background-position: 0 0;
   width: 35px;
   height: 28px;
 }
 
-.sprites-icons-10 {
+.sprites-10 {
   background-position: 0 -33px;
+  width: 110px;
+  height: 110px;
+}
+
+.sprites-11 {
+  background-position: 0 -148px;
   width: 28px;
   height: 28px;
 }
 
-.sprites-icons-11 {
-  background-position: 0 -66px;
+.sprites-12 {
+  background-position: 0 -181px;
   width: 22px;
   height: 21px;
 }
 
-.sprites-icons-12 {
-  background-position: 0 -92px;
+.sprites-13 {
+  background-position: 0 -207px;
   width: 35px;
   height: 28px;
 }
 
-.sprites-icons-13 {
-  background-position: 0 -125px;
+.sprites-14 {
+  background-position: 0 -240px;
   width: 36px;
   height: 31px;
 }
 
-.sprites-icons-14 {
-  background-position: 0 -161px;
+.sprites-15 {
+  background-position: 0 -276px;
   width: 24px;
   height: 14px;
 }
 
-.sprites-icons-15 {
-  background-position: 0 -180px;
+.sprites-16 {
+  background-position: 0 -295px;
   width: 32px;
   height: 28px;
 }
 
-.sprites-icons-16 {
-  background-position: 0 -213px;
+.sprites-17 {
+  background-position: 0 -328px;
   width: 32px;
   height: 31px;
 }
 
-.sprites-icons-17 {
-  background-position: 0 -249px;
+.sprites-18 {
+  background-position: 0 -364px;
   width: 41px;
   height: 27px;
 }
 
-.sprites-icons-18 {
-  background-position: 0 -281px;
+.sprites-19 {
+  background-position: 0 -396px;
   width: 40px;
   height: 35px;
 }
 
-.sprites-icons-19 {
-  background-position: 0 -321px;
-  width: 48px;
-  height: 48px;
-}
-
-.sprites-icons-2 {
-  background-position: 0 -374px;
+.sprites-2 {
+  background-position: 0 -436px;
   width: 35px;
   height: 32px;
 }
 
-.sprites-icons-20 {
-  background-position: 0 -411px;
+.sprites-20 {
+  background-position: 0 -473px;
+  width: 48px;
+  height: 48px;
+}
+
+.sprites-21 {
+  background-position: 0 -526px;
   width: 27px;
   height: 25px;
 }
 
-.sprites-icons-21 {
-  background-position: 0 -441px;
+.sprites-22 {
+  background-position: 0 -556px;
   width: 33px;
   height: 22px;
 }
 
-.sprites-icons-22 {
-  background-position: 0 -468px;
+.sprites-23 {
+  background-position: 0 -583px;
   width: 31px;
   height: 29px;
 }
 
-.sprites-icons-23 {
-  background-position: 0 -502px;
+.sprites-24 {
+  background-position: 0 -617px;
   width: 26px;
   height: 23px;
 }
 
-.sprites-icons-3 {
-  background-position: 0 -530px;
+.sprites-3 {
+  background-position: 0 -645px;
   width: 39px;
   height: 39px;
 }
 
-.sprites-icons-4 {
-  background-position: 0 -574px;
+.sprites-4 {
+  background-position: 0 -689px;
   width: 14px;
   height: 25px;
 }
 
-.sprites-icons-5 {
-  background-position: 0 -604px;
+.sprites-5 {
+  background-position: 0 -719px;
   width: 30px;
   height: 32px;
 }
 
-.sprites-icons-6 {
-  background-position: 0 -641px;
+.sprites-6 {
+  background-position: 0 -756px;
   width: 40px;
   height: 37px;
 }
 
-.sprites-icons-7 {
-  background-position: 0 -683px;
+.sprites-7 {
+  background-position: 0 -798px;
   width: 32px;
   height: 33px;
 }
 
-.sprites-icons-8 {
-  background-position: 0 -721px;
+.sprites-9 {
+  background-position: 0 -836px;
   width: 31px;
   height: 34px;
 }
 
-.sprites-icons-9 {
-  background-position: 0 -760px;
-  width: 110px;
-  height: 110px;
+.sprites-list-tofirst {
+  background-position: 0 -875px;
+  width: 30px;
+  height: 30px;
+}
+
+.sprites-list-tolast {
+  background-position: 0 -910px;
+  width: 30px;
+  height: 30px;
+}
+
+.sprites-middlePage {
+  background-position: 0 -945px;
+  width: 30px;
+  height: 30px;
+}
+
+.sprites-nextPage {
+  background-position: 0 -980px;
+  width: 30px;
+  height: 30px;
+}
+
+.sprites-prevPage {
+  background-position: 0 -1015px;
+  width: 30px;
+  height: 30px;
 }
